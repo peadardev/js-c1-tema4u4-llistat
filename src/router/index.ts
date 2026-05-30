@@ -12,6 +12,7 @@ const router = createRouter({
       path: '/:id',
       name: 'student-detail',
       component: () => import('@/modules/StudentDetail.vue'),
+      props: true,
     },
   ],
 });
